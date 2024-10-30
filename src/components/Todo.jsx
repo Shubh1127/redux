@@ -21,7 +21,7 @@ export default function Todo(){
     return (
         <>
         <AddForm/>
-        <h2>Todo List App</h2>
+        <h2>Todo List </h2>
         <ul>
             {todos.map((todo)=>(
                 <li key={todo.id} style={{ color: todo.isDone ? 'green' : 'white' }}>{todo.task}
